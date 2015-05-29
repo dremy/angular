@@ -1,0 +1,79 @@
+name = Angular
+description = Angular base profile
+core = 7.x
+version = 1.x
+; theme = TBD
+
+;
+; Maintenance instructions
+;
+; IF YOU WANT TO SET UP A MODULE FOR AUTOMATIC INCLUSION ON PROFILE INSTALL...
+; ...add a dependencies[] entry under the appropriate section below.
+;
+; IF YOU ARE INSTALLING DEMO CONTENT...
+; ...stop!  Please include your module in demo.sh.  Demo content does NOT
+; belong here.
+;
+
+;
+; Core
+;
+dependencies[] = block
+dependencies[] = color
+dependencies[] = comment
+dependencies[] = contextual
+dependencies[] = dashboard
+dependencies[] = field
+dependencies[] = help
+dependencies[] = image
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = taxonomy
+dependencies[] = dblog
+dependencies[] = search
+dependencies[] = shortcut
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = rdf
+
+;
+; Contrib
+;
+dependencies[] = features
+dependencies[] = ctools
+dependencies[] = views
+dependencies[] = views_ui
+dependencies[] = entity
+dependencies[] = elements
+dependencies[] = email
+dependencies[] = link
+dependencies[] = telephone
+dependencies[] = strongarm
+dependencies[] = module_filter
+dependencies[] = date
+dependencies[] = date_popup
+dependencies[] = field_group
+dependencies[] = field_collection
+dependencies[] = field_collection_table
+dependencies[] = admin_menu
+dependencies[] = module_filter
+dependencies[] = admin_views
+dependencies[] = views_bulk_operations
+dependencies[] = views_data_exports
+
+;
+; Site Variables
+;
+variables[node_admin_theme] = 1
+
+;
+; Sample users
+;
+users[user_admin][uid] = 2
+users[user_admin][name] = user admin
+users[user_admin][mail] = useradmin@teachforamerica.org
+users[user_admin][status] = 1
+users[user_admin][roles] = user admin
