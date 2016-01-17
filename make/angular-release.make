@@ -11,17 +11,20 @@ projects[libraries][version] = 2.2
 projects[ctools][version] = 1.7
 
 ; Features
-projects[features][version] = 2.4
+projects[features][version] = 2.5
+; Catches field exceptions
 projects[features][patch][] = https://www.drupal.org/files/issues/features-catch_field_exceptions-1664160-26.patch
 projects[features_override][version] = 2.0-rc2
 projects[features_extra][version] = 1.0-beta1
 projects[strongarm][version] = 2.0
 
-
-; Views
-projects[views][version] = 3.10
+;
+; Data & Querying
+;
+projects[views][version] = 3.11
 ; Fixes Page Creation AJAX Error on Nginx
-projecst[views][patch][] = https://www.drupal.org/files/issues/views-ajax-nginx-1036962-71.patch
+projects[views][patch][] = https://www.drupal.org/files/issues/views-ajax-nginx-1036962-71.patch
+projects[services][version] = 3.12
 
 ;
 ; Form & Field API
@@ -61,3 +64,15 @@ projects[views_data_export][version] = 3.0-beta8
 ; Profiler
 libraries[profiler][download][type] = get
 libraries[profiler][download][url] = http://ftp.drupal.org/files/projects/profiler-7.x-2.0-beta2.tar.gz
+
+;
+; Themes
+;
+
+; Tao for base admin theme
+projects[tao][type] = theme
+projects[tao][version] = 3.1
+
+; Rubik for actual admin theme
+projects[rubik][type] = theme
+projects[rubik][version] = 4.2

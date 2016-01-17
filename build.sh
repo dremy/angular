@@ -53,8 +53,8 @@ fi
 
 # Define default variables
 COREMAKE='drupal-org-core.make'
-DEVMAKE="tfa-dev.make"
-RELEASEMAKE="tfa-release.make"
+DEVMAKE="angular-dev.make"
+RELEASEMAKE="angular-release.make"
 
 # Drush options.
 DRUSH_OPTS="--yes --no-cache --concurrency=4"
@@ -167,8 +167,7 @@ echo "--> Complete!"
 # Installing profiles
 echo
 echo "--> Porting over site's profile(s)..."
-ln -s "$CURDIR/profiles/tfa" $TARGET_PATH/profiles/tfa
-ln -s "$CURDIR/profiles/tfa_regional" $TARGET_PATH/profiles/tfa_regional
+ln -s "$CURDIR/profiles/angular" $TARGET_PATH/profiles/angualr
 echo "--> Complete!"
 
 

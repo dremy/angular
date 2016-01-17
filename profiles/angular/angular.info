@@ -62,7 +62,6 @@ dependencies[] = admin_menu
 dependencies[] = module_filter
 dependencies[] = admin_views
 dependencies[] = views_bulk_operations
-dependencies[] = views_data_exports
 
 ;
 ; Site Variables

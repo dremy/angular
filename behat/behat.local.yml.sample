@@ -1,0 +1,8 @@
+default:
+  extensions:
+    Behat\MinkExtension\Extension:
+      base_url: 'http://URL_OF_WEBSITE.com' # No trailing slash
+      files_path: '/path/to/directory/of/behat/files'
+    Drupal\DrupalExtension\Extension:
+      drupal:
+        drupal_root: '/SERVER/ROOT/OFWEBSITE'

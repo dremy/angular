@@ -1,0 +1,12 @@
+parameters:
+  drupal.driver.drush.class: Drupal\Driver\DrushDriver
+
+services:
+  drupal.driver.drush:
+    class: %drupal.driver.drush.class%
+    arguments:
+      - %drupal.driver.drush.alias%
+      - %drupal.driver.drush.root%
+      - %drupal.driver.drush.binary%
+    tags:
+      - { name: drupal.driver, alias: drush }

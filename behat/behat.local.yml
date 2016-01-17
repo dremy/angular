@@ -1,0 +1,7 @@
+default:
+  extensions:
+    Behat\MinkExtension\Extension:
+      base_url: 'http://localhost/angular/drupal' # No trailing slash
+    Drupal\DrupalExtension\Extension:
+      drupal:
+        drupal_root: '/Users/jkestler/Sites/angular/drupal' #No trailing slash

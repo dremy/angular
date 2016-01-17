@@ -22,14 +22,14 @@ $databases['default']['default'] = array(
 );
 
 // Define base URL for the installation.
-$base_url = 'http://YOUR-DOMAIN.com';  # DO NOT ADD TRAILING SLASH!
+# $base_url = 'http://YOUR-DOMAIN.com';  # DO NOT ADD TRAILING SLASH!
 
 // Apache Solr Index Definition.
-$conf['apachesolr_environments']['solr']['url'] = 'http://localhost:8983/solr/drupal';
+# $conf['apachesolr_environments']['solr']['url'] = 'http://localhost:8983/solr/drupal';
 
 // Configure the site's region name. NOTE: this should be set through the UI, either
 // during installation or under /admin/config/system/site-information
 # $conf['region_name'] = 'YOUR REGION';
 
 // Define installation profile to use at all times.
-$conf['install_profile'] = 'tfa';
+$conf['install_profile'] = 'angular';
